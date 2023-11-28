@@ -8,6 +8,9 @@ It builds the following rom:
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
+## Dashed's patch
+
+- Set starting extra balls to be 200.
 
 ## See also
 

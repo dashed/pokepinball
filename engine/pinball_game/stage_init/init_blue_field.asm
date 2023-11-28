@@ -11,7 +11,11 @@ InitBlueField: ; 0x1c000
 	ld [hld], a
 	ld [hl], a
 	ld [wNumPartyMons], a
+	; Set wExtraBalls = 200
+	ld a, MAX_EXTRA_BALLS
 	ld [wExtraBalls], a
+	; clear register a
+	xor a
 	ld [wLostBall], a
 	ld [wBallType], a
 	ld [wd4c8], a
