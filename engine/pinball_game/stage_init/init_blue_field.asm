@@ -18,7 +18,7 @@ InitBlueField: ; 0x1c000
 	xor a
 	ld [wLostBall], a
 	ld [wBallType], a
-	ld [wd4c8], a
+	ld [wBallSize], a
 	ld hl, wPreviousNumPokeballs
 	ld [hli], a
 	ld [hli], a ; wNumPokeballs
